@@ -1,0 +1,5 @@
+Building a C++ program is a three-step process. First, the code is run through a preprocessor, which recognizes metainformation about the code. Next, the code is compiled, or translated into machine-readable
+object files. Finally, the individual object files are linked together into a single application. Directives that are aimed at the preprocessor start with the # character, as in the line #include <iostream> in the previous example. In this case, an include directive tells the preprocessor to take everything from the iostream header file and make it available to the current file. The most common use of header files is to declare functions that will be defined elsewhere. Remember, a declaration tells the compiler how a function is called. A definition contains the actual code for the function. The iostream header declares the input and output mechanisms provided by C++. If the program did not include it, it would be unable to
+perform its only task of outputting text.
+
+[Preprocessor directives](./Preprocessor-directives.jpg)
