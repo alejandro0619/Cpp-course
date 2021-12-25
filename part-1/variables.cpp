@@ -46,5 +46,8 @@ using namespace std;
 int main(int argc, char** argv) {
   //showDataTypes();
   //castingTypesExamples();
+  int anInteger = 2;
+  bool integerCasted = bool(anInteger);
+  cout << integerCasted;
   return 0;
 }
