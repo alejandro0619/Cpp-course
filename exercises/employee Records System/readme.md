@@ -1,0 +1,6 @@
+- The ability to add an employee
+- The ability to fire an employee
+- The ability to promete an employee
+- The ability to view all employees, past and preent
+- The ability to view all current employees
+- The ability to view all former employees
