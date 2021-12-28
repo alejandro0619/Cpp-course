@@ -9,7 +9,7 @@ void loopThroughGivenArray(int a[5]) {
 }
 using namespace std;
 void loopThroughMultidimensionalArray(int a[3][3]){
-  for (int i = 0; i < sizeof(*a[i]) -1; i++){
+  for (int i = 0; i < sizeof(a[i]) -1; i++){
     for(int j = 0; j < sizeof(a[i][j]) -1; j++) {
       cout << "At index [" << i << ", " << j << "]"
            << "The array's value is: " << a[i][j] << endl;
