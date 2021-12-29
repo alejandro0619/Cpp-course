@@ -31,7 +31,7 @@ namespace Records {
   void Employee::display(){
     cout << "Name: " << getFirstName() << " "<< getLastName() << endl;
     cout << "Employee's ID: " << getEmployee() << endl;
-    cout << "Salary: " << getSalary();
+    cout << "Salary: " << getSalary() << endl;
   }
   void Employee::setFirstName(string firstname) {
     // field = param

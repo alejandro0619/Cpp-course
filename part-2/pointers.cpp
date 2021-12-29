@@ -8,7 +8,7 @@ int main(){
   *myIntegerPointer = 6;
 
   // Pointers don’t always point to heap memory. You can declare a pointer that points to a variable on the stack, even another pointer. 
-  //To get a pointer to a variable, you use the & “address of” operator:
+  //To get a pointer to a variable, you use the & "address of" operator:
   int i = 55;
   // This variable is equal to the value pointed by i, which is 55
   int *myIntegerPointer2 = &i; // Points to the variable with the value of 55
