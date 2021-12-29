@@ -15,11 +15,11 @@ namespace Records {
       void display();
 
       // getters and setters:
-      void setFirstName(std::string firstName);
+      void setFirstName(std::string firstname);
       std::string getFirstName();
-      void setLastName(std::string lastName);
+      void setLastName(std::string lastname);
       std::string getLastName();
-      void setEmployeeNumber(int employeeNumber);
+      void setEmployeeNumber(int employeenumber);
       int getEmployee();
       void setSalary(int newSalary);
       int getSalary();
@@ -31,5 +31,5 @@ namespace Records {
     int employeeNumber;
     int salary;
     bool hired;
-  }
+  };
 }
