@@ -1,2 +1,2 @@
 ﻿# C++ course
-Examples and exercises shown in the book Profesional C++.
+Examples and exercises that are shown in the book Profesional C++.
